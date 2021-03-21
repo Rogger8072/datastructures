@@ -1,0 +1,30 @@
+def add(a,b,c):
+    i=1
+    
+    a=a*b
+    b=b*a
+    i=i+1
+    return a+b
+
+def mul(a=[],b=[]):
+    
+
+    cona=str(a)
+    la=len(cona)
+    conb=str(b)
+    lb=len(conb)
+    x=la//2
+    i=1
+    
+    
+    if la%2==0 and la%2==0:
+        d=0
+        while(d<la):
+            s=0
+            q=int(cona[d])
+            w=int(conb[d])
+            s=add(q,w,lb)
+            d=d+1
+        print(s)
+            
+        
